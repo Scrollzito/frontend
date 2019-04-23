@@ -4,8 +4,8 @@ import './styles.css';
 import logo from '../../assets/logo.svg';
 import { MdInsertDriveFile } from 'react-icons/md'
 import { distanceInWords } from 'date-fns';
-import Dropzone from 'react-dropzone';
 import pt from 'date-fns/locale/pt';
+import Dropzone from 'react-dropzone';
 import api from '../../services/api';
 import socket from 'socket.io-client';
 
