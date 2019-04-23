@@ -37,7 +37,7 @@ export default class Main extends Component {
               value = {this.state.newBox}
               onChange = {this.handleInputChange}
             />
-            <SubmitButton color="#111" type="submit">Criar</SubmitButton>
+            <SubmitButton type="submit">Criar</SubmitButton>
           </form>
        </Container>
     );
